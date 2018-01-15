@@ -11,8 +11,8 @@ public class UserConfiguration {
     public Map<String, String> createUser() {
         Map<String, String> users = new HashMap<String, String>();
 
-        users.put("10537812" , "Luisa Sepúlveda");
-        users.put("10983265" , "Raúl Fandiño");
+        users.put("1053781223" , "Luisa Sepúlveda");
+        users.put("1098326512" , "Raúl Fandiño");
 
         //Add the new users here ...
 
