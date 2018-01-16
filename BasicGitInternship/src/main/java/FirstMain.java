@@ -1,6 +1,8 @@
 import Impl.UserConfiguration;
 import Impl.users.LuisaSepulveda;
 import Impl.users.RaulFandino;
+import Impl.users.JuanCastro;
+
 
 import java.util.Map;
 
@@ -17,7 +19,7 @@ public class FirstMain {
         System.out.println("ID" + "\t\t\t\t\t" + "Name");
         System.out.println("---------------------------------------------------");
 
-        LuisaSepulveda luisaSepulveda= new LuisaSepulveda();
+        LuisaSepulveda luisaSepulveda = new LuisaSepulveda();
         System.out.println(luisaSepulveda.getId() + "\t\t\t" + luisaSepulveda.getFullName());
 
         RaulFandino raulFandino = new RaulFandino();
@@ -32,8 +34,7 @@ public class FirstMain {
 //        LuisZarate luisZarate = new LuisZarate();
 //        System.out.println(luisZarate.getId() + "\t\t\t" + luisZarate.getFullName());
 //
-//        JuanCastro juanCastro = new JuanCastro();
-//        System.out.println(juanCastro.getId() + "\t\t\t" + juanCastro.getFullName());
+
 //
 //        JoanPuerto joanPuerto = new JoanPuerto();
 //        System.out.println(joanPuerto.getId() + "\t\t\t" + joanPuerto.getFullName());
