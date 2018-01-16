@@ -3,7 +3,7 @@ import Impl.UserConfiguration;
 import java.util.Map;
 
 /**
- * Created by lsepulveda on 1/11/2018.
+ * Created by mahernandez on 1/11/2018.
  */
 public class SecondMain {
 
