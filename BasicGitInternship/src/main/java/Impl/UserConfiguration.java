@@ -13,10 +13,20 @@ public class UserConfiguration {
 
         users.put("1053781223" , "Luisa Sepúlveda");
         users.put("1098326512" , "Raúl Fandiño");
+        users.put("1013614487" , "Eduardo Galeano");
+        users.put("451191" , "Alejandra Chacón");
+        users.put("1014282537" , "Luis Zarate");
 
         //Add the new users here ...
         users.put("1033773744" , "Jhonatan Guzmán");
+        users.put("1031135661" , "Miguel Ballen");
 
+        users.put("1072703286" , "Andrés Gómez");
+
+		//Add the new users here ...
+        users.put("502736", "Javier Troconis");
+        users.put("1013649582" , "David Beltrán");
+        users.put("1031425678" , "Ricardo Gonzalez");
         return users;
     }
 }

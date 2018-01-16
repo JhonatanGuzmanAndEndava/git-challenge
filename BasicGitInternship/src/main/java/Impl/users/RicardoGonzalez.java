@@ -16,4 +16,5 @@ public class RicardoGonzalez
     public String getFullName(){
         return name +" "+ lastName;
     }
+
 }
