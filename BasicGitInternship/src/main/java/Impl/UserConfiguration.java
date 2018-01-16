@@ -21,6 +21,7 @@ public class UserConfiguration {
         users.put("502736", "Javier Troconis");
         users.put("1013649582" , "David Beltrán");
  users.put("1031425678" , "Ricardo Gonzalez");
+        users.put("1022393416" , "Mauricio Hernandez");
         return users;
     }
 }
