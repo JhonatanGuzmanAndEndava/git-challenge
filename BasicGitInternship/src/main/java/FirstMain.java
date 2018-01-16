@@ -1,4 +1,5 @@
 import Impl.UserConfiguration;
+import Impl.users.MauricioHernandez;
 import Impl.users.LuisaSepulveda;
 import Impl.users.RaulFandino;
 import Impl.users.SebastianPuerto;
@@ -42,8 +43,8 @@ public class FirstMain {
 //        DavidBeltran davidBeltran = new DavidBeltran();
 //        System.out.println(davidBeltran.getId() + "\t\t\t" + davidBeltran.getFullName());
 //
-//        AndresHernandez andresHernandez = new AndresHernandez();
-//        System.out.println(andresHernandez.getId() + "\t\t\t" + andresHernandez.getFullName());
+        MauricioHernandez andresHernandez = new MauricioHernandez();
+        System.out.println(andresHernandez.getId() + "\t\t\t" + andresHernandez.getFullName());
 //
 //        EstefaniaCalderon estefaniaCalderon = new EstefaniaCalderon();
 //        System.out.println(estefaniaCalderon.getId() + "\t\t\t" + estefaniaCalderon.getFullName());
