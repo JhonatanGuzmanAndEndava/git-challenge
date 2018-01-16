@@ -34,11 +34,7 @@ public class FirstMain {
 //        LuisZarate luisZarate = new LuisZarate();
 //        System.out.println(luisZarate.getId() + "\t\t\t" + luisZarate.getFullName());
 //
-        JuanCastro juanCastro = new JuanCastro();
-        System.out.println(juanCastro.getId() + "\t\t\t" + juanCastro.getFullName());
 
-        AlejandraChacon ale = new AlejandraChacon();
-        System.out.println(ale.getId() + "\t\t\t" + ale.getFullName());
 //
 //        JoanPuerto joanPuerto = new JoanPuerto();
 //        System.out.println(joanPuerto.getId() + "\t\t\t" + joanPuerto.getFullName());
