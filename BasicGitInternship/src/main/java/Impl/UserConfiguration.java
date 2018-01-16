@@ -18,7 +18,8 @@ public class UserConfiguration {
         users.put("451191" , "Alejandra Chacón");
         users.put("1014282537" , "Luis Zarate");
         users.put("1032466534" , "Sebastian Puerto");
-		//Add the new users here ...
+        //Add the new users here ...
+        users.put("1033773744" , "Jhonatan Guzmán");
         users.put("1031135661" , "Miguel Ballen");
         users.put("1072703286" , "Andrés Gómez");
 		//Add the new users here ...
@@ -26,6 +27,7 @@ public class UserConfiguration {
         users.put("1013649582" , "David Beltrán");
         users.put("1031425678" , "Ricardo Gonzalez");
         users.put("1022393416" , "Mauricio Hernandez");
+
         return users;
     }
 }
