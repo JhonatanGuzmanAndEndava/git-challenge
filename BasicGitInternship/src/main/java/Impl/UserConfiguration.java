@@ -16,6 +16,25 @@ public class UserConfiguration {
 
         //Add the new users here ...
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        users.put("1031425678" , "Ricardo Gonzalez");
         return users;
     }
 }
