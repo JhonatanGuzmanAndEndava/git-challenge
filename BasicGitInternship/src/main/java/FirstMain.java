@@ -1,6 +1,8 @@
 import Impl.UserConfiguration;
 import Impl.users.LuisaSepulveda;
 import Impl.users.RaulFandino;
+import Impl.users.JuanCastro;
+
 
 import java.util.Map;
 
@@ -32,8 +34,8 @@ public class FirstMain {
 //        LuisZarate luisZarate = new LuisZarate();
 //        System.out.println(luisZarate.getId() + "\t\t\t" + luisZarate.getFullName());
 //
-//        JuanCastro juanCastro = new JuanCastro();
-//        System.out.println(juanCastro.getId() + "\t\t\t" + juanCastro.getFullName());
+        JuanCastro juanCastro = new JuanCastro();
+        System.out.println(juanCastro.getId() + "\t\t\t" + juanCastro.getFullName());
 //
 //        JoanPuerto joanPuerto = new JoanPuerto();
 //        System.out.println(joanPuerto.getId() + "\t\t\t" + joanPuerto.getFullName());
