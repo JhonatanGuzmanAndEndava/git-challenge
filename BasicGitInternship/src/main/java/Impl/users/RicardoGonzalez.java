@@ -1,6 +1,5 @@
 package Impl.users;
 
-<<<<<<< HEAD
 public class RicardoGonzalez
 {
     String id = "1031425678";
@@ -17,7 +16,5 @@ public class RicardoGonzalez
     public String getFullName(){
         return name +" "+ lastName;
     }
-=======
-public class RicardoGonzalez {
->>>>>>> master
+
 }
