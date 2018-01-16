@@ -19,7 +19,7 @@ public class FirstMain {
         System.out.println("ID" + "\t\t\t\t\t" + "Name");
         System.out.println("---------------------------------------------------");
 
-        LuisaSepulveda luisaSepulveda= new LuisaSepulveda();
+        LuisaSepulveda luisaSepulveda = new LuisaSepulveda();
         System.out.println(luisaSepulveda.getId() + "\t\t\t" + luisaSepulveda.getFullName());
 
         RaulFandino raulFandino = new RaulFandino();
@@ -36,6 +36,9 @@ public class FirstMain {
 //
         JuanCastro juanCastro = new JuanCastro();
         System.out.println(juanCastro.getId() + "\t\t\t" + juanCastro.getFullName());
+
+        AlejandraChacon ale = new AlejandraChacon();
+        System.out.println(ale.getId() + "\t\t\t" + ale.getFullName());
 //
 //        JoanPuerto joanPuerto = new JoanPuerto();
 //        System.out.println(joanPuerto.getId() + "\t\t\t" + joanPuerto.getFullName());
