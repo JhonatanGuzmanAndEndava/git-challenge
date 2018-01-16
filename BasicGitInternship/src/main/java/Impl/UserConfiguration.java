@@ -13,8 +13,9 @@ public class UserConfiguration {
 
         users.put("1053781223" , "Luisa Sepúlveda");
         users.put("1098326512" , "Raúl Fandiño");
-
-        //Add the new users here ...
+		
+        users.put("1014282537" , "Luis Zarate");
+		//Add the new users here ...
 
         return users;
     }
