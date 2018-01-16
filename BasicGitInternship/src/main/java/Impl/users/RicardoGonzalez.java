@@ -1,6 +1,7 @@
 package Impl.users;
 
-public class RicardoGonzalez {
+public class RicardoGonzalez
+{
     String id = "1031425678";
     String name = "Ricardo Enrique";
     String lastName = "Gonzalez Penuela";
