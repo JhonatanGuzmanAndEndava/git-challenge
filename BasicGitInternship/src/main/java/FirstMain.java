@@ -2,12 +2,9 @@ import Impl.UserConfiguration;
 import Impl.users.MauricioHernandez;
 import Impl.users.LuisaSepulveda;
 import Impl.users.RaulFandino;
-<<<<<<< HEAD
 import Impl.users.JuanCastro;
 
-=======
 import Impl.users.SebastianPuerto;
->>>>>>> master
 
 import java.util.Map;
 
@@ -21,7 +18,7 @@ public class FirstMain {
     public static void main(String[] args) {
 
         Map<String, String> usersReturned = userConfiguration.createUser();
-        System.out.println("ID" + "\t\t\t\t\t" + "Name");
+        System.out .println("ID" + "\t\t\t\t\t" + "Name");
         System.out.println("---------------------------------------------------");
 
         LuisaSepulveda luisaSepulveda = new LuisaSepulveda();
