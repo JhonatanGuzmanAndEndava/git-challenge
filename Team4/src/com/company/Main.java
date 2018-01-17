@@ -8,6 +8,7 @@ public class Main {
         System.out.println("1: Create book");
         Scanner sc = new Scanner(System.in);
         int option = sc.nextInt();
+        Biblioteca library = new Biblioteca();
         String name;
         String author;
         String ISBN;
@@ -29,6 +30,7 @@ public class Main {
                 System.out.print("Enter book´s publisher: ");
                 publisher = sc.next();
                 Libro lib = new Libro(name,author,ISBN,published,language,publisher);
+                library.createBook(lib);
                 break;
         }
 
