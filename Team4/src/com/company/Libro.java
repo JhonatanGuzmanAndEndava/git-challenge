@@ -17,7 +17,7 @@ public class Libro {
         this.publisher = publisher;
     }
 
-    //Getters and Setters
+    //Get's and Set's
     public String getname(){
         return name;
     }
