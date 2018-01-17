@@ -43,10 +43,10 @@ public class Libro {
         this.published = published;
     }
     public String getlenguage(){
-        return lenguage;
+        return language;
     }
     public void setlenguage(String lenguage){
-        this.lenguage = lenguage;
+        this.language = lenguage;
     }
     public String getpublisher(){
         return publisher;
