@@ -8,12 +8,13 @@ public class Main {
 
     private static Scanner input;
     private static Library library;
-//pruebaklasjdklajsd
+
     public static void main(String args[]) {
         input = new Scanner(System.in);
         int option;
         library = new Library();
         library.getAllBooks();
+        option = 0;
         do{
             System.out.println("Welcome to " + library.getName());
             System.out.println("1. Create book");
@@ -21,23 +22,28 @@ public class Main {
             System.out.println("3. Update book");
             System.out.println("4. Delete book");
             System.out.println("5. Exit");
-            option = input.nextInt();
-            input.nextLine();
-            switch (option) {
-                case 1:
-                    create();
-                    break;
-                case 2:
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    break;
-                default:
-                    if(option != 5) {
-                        System.out.println("Wrong input");
-                    }
-                    break;
+            try {
+                option = Integer.parseInt(input.nextLine());
+                switch (option) {
+                    case 1:
+                        create();
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        break;
+                    default:
+                        if(option != 5) {
+                            System.out.println("Wrong input");
+                        }
+                        break;
+                }
+            }
+            catch(Exception e) {
+                e.printStackTrace();
+                option = 0;
             }
         }
         while(option != 5);

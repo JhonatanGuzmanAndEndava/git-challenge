@@ -1,21 +1,24 @@
 package persistence;
 
+import entities.Book;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Persistence<T> {
     public Persistence() {
     }
 
-    public void save(String path, List<T> list) {
+    public void save(String path, Map<String, List<Book>> map) {
         try{
             FileOutputStream fileOut = new FileOutputStream(path);
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
-            out.writeObject(list);
+            out.writeObject(map);
             out.close();
             fileOut.close();
             System.out.println("File saved");
@@ -23,17 +26,17 @@ public class Persistence<T> {
         }
     }
 
-    public List<T> load(String path) {
-        List<T> list = new ArrayList<T>();
+    public Map<String, List<Book>> load(String path) {
+        Map<String, List<Book>> map = new HashMap<String, List<Book>>();
         try {
             FileInputStream fileIn = new FileInputStream(path);
             ObjectInputStream in = new ObjectInputStream(fileIn);
-            list = (List<T>) in.readObject();
+            map = (Map<String, List<Book>>) in.readObject();
             in.close();
             fileIn.close();
         }
         catch(Exception e) {
         }
-        return list;
+        return map;
     }
 }

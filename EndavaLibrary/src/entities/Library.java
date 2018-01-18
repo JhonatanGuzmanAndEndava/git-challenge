@@ -10,15 +10,13 @@ import java.util.Map;
 public class Library {
 
     private String name;
-    private List<Book> books;
+    private Map<String, List<Book>> books;
     private Persistence<Book> persistence;
-    private Map<String, Integer> copies;
 
     public Library() {
         this.name = "Endava's library";
-        this.books = new ArrayList<Book>();
+        this.books = new HashMap<String, List<Book>>();
         this.persistence = new Persistence<Book>();
-        this.copies = new HashMap<String,Integer>();
     }
 
     public String getName() {
@@ -29,25 +27,28 @@ public class Library {
         this.name = name;
     }
 
-    public List<Book> getBooks() {
+    public Map<String, List<Book>> getBooks() {
         return books;
     }
 
-    public void setBooks(List<Book> books) {
+    public void setBooks(Map<String, List<Book>> books) {
         this.books = books;
     }
 
     public void createBook(String name, String author, String isbn, String published, String language, String publisher) {
-        Integer copy = 1;
-        if(copies.get(name)==null){
-            copies.put(name,1);
-        }else{
-            copy = copies.get(name)+1;
-            copies.replace(name,copy);
-
+        int id;
+        Book book;
+        List<Book> list = books.get(isbn);
+        if(list == null) {
+            id = 0;
+            list = new ArrayList<Book>();
         }
-        //System.out.println("Copy: "+copy);
-        books.add(new Book(name, author, isbn, published, language, publisher, copy));
+        else {
+            id = books.get(isbn).get(books.get(isbn).size() - 1).getId() + 1;
+        }
+        book = new Book(id, name, author, isbn, published, language, publisher);
+        list.add(book);
+        books.put(isbn, list);
         persistence.save("./endavaLibrary.lol", books);
     }
 

@@ -3,23 +3,32 @@ import java.io.*;
 
 public class Book implements Serializable {
 
-
+    private int id;
     private String name;
-    private Integer copy;
     private String author;
     private String isbn;
     private String published;
     private String language;
     private String publisher;
+    private Status status;
 
-    public Book(String name, String author, String isbn, String published, String language, String publisher, Integer copy) {
+    public Book(int id, String name, String author, String isbn, String published, String language, String publisher) {
+        this.id = id;
         this.name = name;
         this.author = author;
         this.isbn = isbn;
         this.published = published;
         this.language = language;
         this.publisher = publisher;
-        this.copy = copy;
+        this.status = Status.AVAILABLE;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -46,7 +55,7 @@ public class Book implements Serializable {
         this.isbn = isbn;
     }
 
-    public String isPublished() {
+    public String getPublished() {
         return published;
     }
 
@@ -70,11 +79,11 @@ public class Book implements Serializable {
         this.publisher = publisher;
     }
 
-    public Integer getCopy() {
-        return copy;
+    public Status getStatus() {
+        return status;
     }
 
-    public void setCopy(Integer copy) {
-        this.copy = copy;
+    public void setStatus(Status status) {
+        this.status = status;
     }
 }
