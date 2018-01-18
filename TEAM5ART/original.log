@@ -1,0 +1,732 @@
+commit aaea3f35a8cc1e1826d179c139b331a6a54ad206
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Wed Jan 17 16:33:57 2018 -0500
+
+    Copy test class in the right place
+
+commit c3cb89bdf006571647545806e99a2536537845d9
+Author: Vanessa Arteaga <varteaga@endava.com>
+Date:   Wed Jan 17 16:29:16 2018 -0500
+
+    test
+
+commit b874b900f31930f03e37a07ead181e8eeb63b586
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Wed Jan 17 16:05:09 2018 -0500
+
+    Requeriment created book finished
+
+commit c40877338e7b4ccc19bd758e409413ba3f581723
+Author: Vanessa Arteaga <varteaga@endava.com>
+Date:   Wed Jan 17 15:36:46 2018 -0500
+
+    Fixing project
+
+commit 9652bd860951e1fbec7ff1e63c67b78b708ae2f0
+Merge: fee1807 64d37b0
+Author: Vanessa Arteaga <varteaga@endava.com>
+Date:   Wed Jan 17 15:29:01 2018 -0500
+
+    Merging 2
+
+commit fee1807bd7272df7e524103f3d6ad827493cd535
+Author: Vanessa Arteaga <varteaga@endava.com>
+Date:   Wed Jan 17 15:25:09 2018 -0500
+
+    Con testing
+
+commit 64d37b0b47d20148472eb684179890e1b1eb93c9
+Merge: 655d71b 7b1b62d
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Wed Jan 17 15:14:43 2018 -0500
+
+    Merge branch 'Team5' of http://bitbucket.endava.com/scm/bd/git_internship into Team5
+
+commit 655d71be45dd69e43290b12d609aea447b837d16
+Merge: de87140 9806208
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Wed Jan 17 15:14:23 2018 -0500
+
+    Merging wotk
+
+commit 7b1b62d48f939eb721e0820378ad6964cf64540c
+Author: David Beltran <dbeltran@endava.com>
+Date:   Wed Jan 17 15:06:12 2018 -0500
+
+    Add: storage controller
+
+commit de8714080e6ed72d06b0fddbfda1e61ca122e790
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Wed Jan 17 15:02:33 2018 -0500
+
+    UI added for create book
+
+commit 9806208e45c996040b2745c256efad6ac4bb7d30
+Merge: 674da36 ea08370
+Author: David Beltran <dbeltran@endava.com>
+Date:   Wed Jan 17 14:22:15 2018 -0500
+
+    delete files that should be ignored under .gitignore
+
+commit 674da3621fabb6dc76ab0549ae6dd24e3f7f591d
+Author: David Beltran <dbeltran@endava.com>
+Date:   Wed Jan 17 14:19:34 2018 -0500
+
+    rename .gitignore.gitignore to .gitignore (windows naming issue)
+
+commit ea08370e8a2c05637121958a9f0c0de82a762592
+Author: Vanessa Arteaga <varteaga@endava.com>
+Date:   Wed Jan 17 14:15:20 2018 -0500
+
+    gitignore correcto
+
+commit 220807e601d2794576087d0c79758bebbe906efa
+Author: Vanessa Arteaga <varteaga@endava.com>
+Date:   Wed Jan 17 13:42:28 2018 -0500
+
+    gitignore
+
+commit 498550f402fb909edc9fb9af0064c4fa91b85cb9
+Author: Vanessa Arteaga <varteaga@endava.com>
+Date:   Wed Jan 17 13:38:22 2018 -0500
+
+    Book_class
+
+commit b377bf4ab0de6f851bfdd702927a78e480aefdf8
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Tue Jan 16 17:57:07 2018 -0500
+
+    Main file added
+
+commit 929a6a5d5234c1c6d45c34f845e319b84fa08597
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Tue Jan 16 17:55:27 2018 -0500
+
+    Project creation
+
+commit 5c80d874563ac205f1d8a01d51e6135f771cacf5
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Tue Jan 16 17:33:44 2018 -0500
+
+    file team 5
+
+commit e111879b619ac28ded9d8de9cb0c19b61a7096e4
+Merge: d917d8d e38c991
+Author: Sebastian Puerto <spuerto@endava.com>
+Date:   Tue Jan 16 17:05:12 2018 -0500
+
+    Merge
+
+commit d917d8de8e9c883a5815a24016782dcc309f3bbb
+Merge: 4afd543 4d67d44
+Author: Sebastian Puerto <spuerto@endava.com>
+Date:   Tue Jan 16 17:03:30 2018 -0500
+
+    Merge
+
+commit e38c9911e420daf746fffe914619302191dc9b8e
+Merge: a11adad 4d67d44
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Tue Jan 16 17:02:34 2018 -0500
+
+    try 3
+
+commit 4afd543e946f3057097d7de4794671b9bf882708
+Merge: 3ad5698 f706bc7
+Author: Sebastian Puerto <spuerto@endava.com>
+Date:   Tue Jan 16 17:02:14 2018 -0500
+
+    Merge
+
+commit a11adadd95049ff38924972164ae94cb2c794113
+Merge: ee69e01 f706bc7
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Tue Jan 16 17:01:21 2018 -0500
+
+    try 3
+
+commit 4d67d441d8a4cf9dade8e99b27b74b2262e1bc96
+Merge: c587b2b 1c2f8fa
+Author: Mauricio Hernandez <mahernandez@endava.com>
+Date:   Tue Jan 16 17:00:53 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 3ad56980d973fb3b9c2c2066001a65a6913fe075
+Author: Sebastian Puerto <spuerto@endava.com>
+Date:   Tue Jan 16 16:59:53 2018 -0500
+
+    Sebastian
+
+commit c587b2b9228c8e725ad8d503981a6e7363c4d67b
+Author: Mauricio Hernandez <mahernandez@endava.com>
+Date:   Tue Jan 16 16:59:52 2018 -0500
+
+    mauricio
+
+commit 1c2f8fad7a0f08c3ebe639e9f46bf184cf12d478
+Merge: 0acdacd f706bc7
+Author: Juan Castro <jcastro@endava.com>
+Date:   Tue Jan 16 16:58:46 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 0acdacd6962a9a34ca0df8b7472f5cea830181f9
+Merge: 6f95c71 771290b
+Author: Juan Castro <jcastro@endava.com>
+Date:   Tue Jan 16 16:58:23 2018 -0500
+
+    juan
+
+commit f706bc726e5d842c193696bc2cc5aaea5d4ecb77
+Merge: 1eea8fa 29e7b01
+Author: Miguel Ballen <mballen@endava.com>
+Date:   Tue Jan 16 16:58:11 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 29e7b01f148b05abe372b3d259dd58f854f971f6
+Author: Ricardo Gonzalez <rgonzalez@endava.com>
+Date:   Tue Jan 16 16:57:27 2018 -0500
+
+    Fixing white space in userConfig
+
+commit 1eea8fa6ff94a687d9da680ef585d9f97f93f665
+Merge: addfbf5 aa5cf26
+Author: Miguel Ballen <mballen@endava.com>
+Date:   Tue Jan 16 16:57:17 2018 -0500
+
+    Second commit
+
+commit 771290b19e7343055ed50e7e92f4f0197e128041
+Merge: 772976f ac17ae5
+Author: Ricardo Gonzalez <rgonzalez@endava.com>
+Date:   Tue Jan 16 16:55:40 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 6f95c71322db37283067423fef2aaf314ce1a98d
+Merge: f92bf8f ac17ae5
+Author: Juan Castro <jcastro@endava.com>
+Date:   Tue Jan 16 16:55:13 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 772976f26490f989ac3aa62161b6df7a8bba3558
+Author: Ricardo Gonzalez <rgonzalez@endava.com>
+Date:   Tue Jan 16 16:55:06 2018 -0500
+
+    fixed Ricardo Gonzalez class
+
+commit f92bf8fb9cffc3b26050f9cca4aadf71bf5e2314
+Merge: 2d666c8 aa5cf26
+Author: Juan Castro <jcastro@endava.com>
+Date:   Tue Jan 16 16:55:04 2018 -0500
+
+    juan
+
+commit ac17ae54cf50eef6ae7ec5076a3e2250ed916703
+Merge: f83d243 aa5cf26
+Author: Javier Troconis <jtronconis@endava.com>
+Date:   Tue Jan 16 16:54:13 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 2d666c8859d49cdf9033ab8acc1a37359b0524b0
+Merge: 16858be 7e07236
+Author: Juan Castro <jcastro@endava.com>
+Date:   Tue Jan 16 16:52:50 2018 -0500
+
+    juan
+
+commit f83d243b8007de50fb676b83065916e4d3558b9b
+Merge: db62912 b7f7606
+Author: Javier Troconis <jtronconis@endava.com>
+Date:   Tue Jan 16 16:52:45 2018 -0500
+
+    Solved Merge conflicts
+
+commit aa5cf2675e15613f5aae8c1e181e4dd32dcd705c
+Merge: e7cfe81 d92782f
+Author: Ricardo Gonzalez <rgonzalez@endava.com>
+Date:   Tue Jan 16 16:52:16 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit e7cfe81e28428f2b6cfce4dfe88606ef7027eb1a
+Author: Ricardo Gonzalez <rgonzalez@endava.com>
+Date:   Tue Jan 16 16:51:52 2018 -0500
+
+    Ricardo Gonzalez added
+
+commit addfbf5d9c991b680ef790e72a8ef0b5e349d267
+Merge: 56d5a13 b7f7606
+Author: Miguel Ballen <mballen@endava.com>
+Date:   Tue Jan 16 16:51:20 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit d92782f1513021076130192e02de23dc81dff1ae
+Merge: 3d81892 b7f7606
+Author: Felipe Gomez <fgomez@endava.com>
+Date:   Tue Jan 16 16:50:38 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 56d5a137225ab89d4717c0fbb9c246b52be408ef
+Author: Miguel Ballen <mballen@endava.com>
+Date:   Tue Jan 16 16:50:23 2018 -0500
+
+    Second commit
+
+commit b7f7606461fa43bfe5e53ac8d9514839fb668026
+Merge: 91f0c77 37bc237
+Author: David Beltran <dbeltran@endava.com>
+Date:   Tue Jan 16 16:50:09 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 91f0c7751f27b45b24044f7aaa5c302d46d32635
+Author: David Beltran <dbeltran@endava.com>
+Date:   Tue Jan 16 16:49:43 2018 -0500
+
+    Added my name in the file
+
+commit 3d81892c0448d65091bdb3f332605734267cd5bb
+Author: Felipe Gomez <fgomez@endava.com>
+Date:   Tue Jan 16 16:49:29 2018 -0500
+
+    Fgomez
+
+commit db62912cb11855f9c3302f9d36fa5d6ab2786228
+Author: Javier Troconis <jtronconis@endava.com>
+Date:   Tue Jan 16 16:49:25 2018 -0500
+
+    Added Javier Troconis to userconfiguration
+
+commit 37bc2377a8a159ab418d39ef7bc7da0128537d19
+Merge: 8e2ff96 7e07236
+Author: Eduardo Galeano <egaleano@endava.com>
+Date:   Tue Jan 16 16:48:43 2018 -0500
+
+    Eduardo Galeano entry added.
+
+commit 8e2ff9676a6d744d10847064bc81b7fd1604270f
+Author: Eduardo Galeano <egaleano@endava.com>
+Date:   Tue Jan 16 16:47:21 2018 -0500
+
+    Eduardo Galeano entry added.
+
+commit 16858be018a5dbb1a535e9ed91a186be67c0aed0
+Author: Juan Castro <jcastro@endava.com>
+Date:   Tue Jan 16 16:46:55 2018 -0500
+
+    juan
+
+commit ee69e01b1b0b40528f7d058675c2c695371aa161
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Tue Jan 16 16:46:02 2018 -0500
+
+    Jhonatan's personal info
+
+commit 7e07236fd7c9c19865e1f20af320a89a136fe629
+Merge: 67e9f98 61d4fe1
+Author: Miguel Ballen <mballen@endava.com>
+Date:   Tue Jan 16 16:45:54 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 61d4fe174794c487511d9d75fa6a4409cf8eea4d
+Merge: dff9dc7 393025a
+Author: Alejandra Chacon <achacon@endava.com>
+Date:   Tue Jan 16 16:45:38 2018 -0500
+
+    aleDev
+
+commit 67e9f98a0bf4c577677a319666045f1df95b20ca
+Merge: 1a04c78 a24c9b8
+Author: Miguel Ballen <mballen@endava.com>
+Date:   Tue Jan 16 16:45:14 2018 -0500
+
+    First commit
+
+commit dff9dc725befe135c86a72ee9c712b1849a96c37
+Author: Alejandra Chacon <achacon@endava.com>
+Date:   Tue Jan 16 16:44:17 2018 -0500
+
+    aleDev
+
+commit a24c9b8f30b27b7a29e2cfcfa62a203e96bae3e5
+Author: Miguel Ballen <mballen@endava.com>
+Date:   Tue Jan 16 16:43:38 2018 -0500
+
+    First commit
+
+commit 393025a7b49607d9ded8d9d0674c4fca677fb4e2
+Author: Luis Zarate <lzarate@endava.com>
+Date:   Tue Jan 16 16:42:59 2018 -0500
+
+    Trying to be first
+
+commit 8128a564239025335c1cc7a9dc3de89ea3598951
+Merge: 867097e 1a04c78
+Author: Eduardo Galeano <egaleano@endava.com>
+Date:   Tue Jan 16 16:42:12 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 867097e4846003d0326071daa45318185f61b02e
+Author: Eduardo Galeano <egaleano@endava.com>
+Date:   Tue Jan 16 16:41:49 2018 -0500
+
+    EduardoGaleano class refactored.
+
+commit 1a04c787c070c10574f6fe554caa024ccea93166
+Merge: 614f840 3ec2cab
+Author: Vanessa Arteaga <varteaga@endava.com>
+Date:   Tue Jan 16 16:06:43 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 3ec2cabf09458ee8fd24c19ff4b598b693518c09
+Merge: 4d1923a 8d6b759
+Author: Ricardo Gonzalez <rgonzalez@endava.com>
+Date:   Tue Jan 16 15:54:36 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 4d1923a66627c19d590dc9fd5cb09f0b4dc5d7d1
+Author: Ricardo Gonzalez <rgonzalez@endava.com>
+Date:   Tue Jan 16 15:54:10 2018 -0500
+
+    Real success
+
+commit 614f84017f9de0c2ad9df9dc4f65913e6c8c72e9
+Merge: 87cb4ba a457cdf
+Author: Vanessa Arteaga <varteaga@endava.com>
+Date:   Tue Jan 16 15:51:31 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 8d6b759fff0db99922159ff9d8a95c6498d4e166
+Merge: d9aa87a a457cdf
+Author: Estefania Calderon <ecalderon@endava.com>
+Date:   Tue Jan 16 15:50:17 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit a457cdf6b688f074f9c64d8427fac7e8a50bae10
+Author: Ricardo Gonzalez <rgonzalez@endava.com>
+Date:   Tue Jan 16 15:47:03 2018 -0500
+
+    Success
+
+commit d9aa87af96e3b0c276321f398ec825e4f4047349
+Merge: 1ccd919 1120f5c
+Author: Estefania Calderon <ecalderon@endava.com>
+Date:   Tue Jan 16 15:45:54 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 87cb4bade3770cb14b7d62977740072db2417139
+Merge: 0fa8abd e86425e
+Author: Vanessa Arteaga <varteaga@endava.com>
+Date:   Tue Jan 16 15:44:29 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 1120f5c918b29c7739d8ee205200ec9e4689b822
+Merge: 3c22a87 e86425e
+Author: Mauricio Hernandez <mahernandez@endava.com>
+Date:   Tue Jan 16 15:42:18 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 3c22a876572ff96321728d85bad61696e91c3f0e
+Author: Mauricio Hernandez <mahernandez@endava.com>
+Date:   Tue Jan 16 15:41:55 2018 -0500
+
+    Mauricio
+
+commit 1ccd9196015eaa8c9c2d8ccbf5d508f98097a853
+Author: Estefania Calderon <ecalderon@endava.com>
+Date:   Tue Jan 16 15:40:10 2018 -0500
+
+    clase Ejercicio
+
+commit e86425ec0fd1839d28351708bce68208c03e38f2
+Merge: 9f1f043 9199c89
+Author: Felipe Gomez <fgomez@endava.com>
+Date:   Tue Jan 16 15:39:58 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 9199c898486bf420ad7f9e60c7bfff6cc052d93b
+Merge: dc5d7cd 0179e2f
+Author: Sebastian Puerto <spuerto@endava.com>
+Date:   Tue Jan 16 15:39:02 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 0fa8abd612d513e3f97974e4ef8ef0ee712a453f
+Author: Vanessa Arteaga <varteaga@endava.com>
+Date:   Tue Jan 16 15:38:44 2018 -0500
+
+    ya subio
+
+commit dc5d7cd6938da4ff4961f7fe79baded376e22404
+Author: Sebastian Puerto <spuerto@endava.com>
+Date:   Tue Jan 16 15:38:41 2018 -0500
+
+    Add Sebastian Puerto
+
+commit 9f1f043d0f77ce08dd54b3c36aeb229d17d40f4b
+Merge: 86dd4a7 0179e2f
+Author: Felipe Gomez <fgomez@endava.com>
+Date:   Tue Jan 16 15:38:25 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 058e538cdd45dd4d4838c2d63261420c765cccd4
+Author: Ricardo Gonzalez <rgonzalez@endava.com>
+Date:   Tue Jan 16 15:37:16 2018 -0500
+
+    Succes
+
+commit 86dd4a70e46dc39ea7aed62bede27b98c41bd70a
+Merge: 3d9207e fbf94dc
+Author: Felipe Gomez <fgomez@endava.com>
+Date:   Tue Jan 16 15:35:39 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 0179e2fa5232098bccc85c4a096ea9be651bd4a5
+Merge: 115fd44 fbf94dc
+Author: Eduardo Galeano <egaleano@endava.com>
+Date:   Tue Jan 16 15:35:13 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit fbf94dc321ea311a71569e39b14ef5172db09d4f
+Merge: cc39e55 1f7fc18
+Author: Alejandra Chacon <achacon@endava.com>
+Date:   Tue Jan 16 15:33:57 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit cc39e55797b3ed887649a7c2a55b6ffc3fbfe36c
+Author: Alejandra Chacon <achacon@endava.com>
+Date:   Tue Jan 16 15:33:49 2018 -0500
+
+    aleDev
+
+commit 115fd44b75089b4a988e0e8449d7101d6e3959d3
+Merge: 6161cc0 1f7fc18
+Author: Eduardo Galeano <egaleano@endava.com>
+Date:   Tue Jan 16 15:33:03 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 3d9207ea4be10cd394189e046639854cb550798a
+Author: Felipe Gomez <fgomez@endava.com>
+Date:   Tue Jan 16 15:32:36 2018 -0500
+
+    Felipe Gomez
+
+commit 1f7fc18aca5324d0d9cf6112c1df94eef6686432
+Merge: 48149df e1d306e
+Author: Luis Zarate <lzarate@endava.com>
+Date:   Tue Jan 16 15:31:23 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit e1d306efe0c84137cb91a1e3a90203fd3b063ee2
+Merge: bbd2033 3e3199e
+Author: David Beltran <dbeltran@endava.com>
+Date:   Tue Jan 16 15:30:19 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 1e0e45e36db85cfb315d96dc847d3dd4ade47f7a
+Merge: a063f70 9fc5230
+Author: Sebastian Puerto <spuerto@endava.com>
+Date:   Tue Jan 16 15:30:14 2018 -0500
+
+    Merge branch 'master' of https://bitbucket.endava.com/scm/bd/git_internship
+
+commit 6161cc012a3d93efe6ee0902992a4069b3fc5a7d
+Merge: 2bfd416 3e3199e
+Author: Eduardo Galeano <egaleano@endava.com>
+Date:   Tue Jan 16 15:30:13 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 48149df5ef2ba060358ca30b820a106f4fa4508c
+Merge: 3ae0acd 3e3199e
+Author: Luis Zarate <lzarate@endava.com>
+Date:   Tue Jan 16 15:29:25 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit a063f70fe304c89a056b778cee146c4cc85431e5
+Author: Sebastian Puerto <spuerto@endava.com>
+Date:   Tue Jan 16 15:29:21 2018 -0500
+
+    Informacion SebastianPuerto
+
+commit 3ae0acda6bdbcb5735dfe93d7156f8c5d9cc2f4b
+Author: Luis Zarate <lzarate@endava.com>
+Date:   Tue Jan 16 15:29:03 2018 -0500
+
+    Luchito Rules
+
+commit bbd20332c3842ee48503256eccb6af1fee32f2e5
+Author: David Beltran <dbeltran@endava.com>
+Date:   Tue Jan 16 15:28:49 2018 -0500
+
+    Added DavidBeltran class
+
+commit 9fc523056cabdc6eb75f9cd76dc433a79b92e688
+Author: Mauricio Hernandez <mahernandez@endava.com>
+Date:   Tue Jan 16 15:28:46 2018 -0500
+
+    Mauricio
+
+commit 2bfd4160beada64d3ca27933d1a3c640a2b91e05
+Author: Eduardo Galeano <egaleano@endava.com>
+Date:   Tue Jan 16 15:27:43 2018 -0500
+
+    Eduardo Galeano class added.
+
+commit 3e3199e2cc791f35234878c9f162e9550f65127f
+Merge: 2ede59f b8d6876
+Author: Sergio Forero <sforero@endava.com>
+Date:   Tue Jan 16 15:26:11 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 2ede59fb0176674ff580c879cc764789cbc48482
+Author: Sergio Forero <sforero@endava.com>
+Date:   Tue Jan 16 15:23:47 2018 -0500
+
+    Sergio Forero Class added
+
+commit b8d6876befd6f39457a91c6f5ab0be396fa49174
+Author: Alejandra Chacon <achacon@endava.com>
+Date:   Tue Jan 16 15:23:19 2018 -0500
+
+    aleDev
+
+commit becf9661b337d70cc1656dbd2db1b7e3b9e8ad0a
+Merge: 0b68e9a 950d888
+Author: Alejandra Chacon <achacon@endava.com>
+Date:   Tue Jan 16 15:21:29 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 0b68e9a267fea6309278d378a564b5afbc187c66
+Author: Alejandra Chacon <achacon@endava.com>
+Date:   Tue Jan 16 15:21:20 2018 -0500
+
+    aleDev
+
+commit 950d88884d287fc10bd299579d67fef053e9d758
+Merge: 3032e07 2bd47ab
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Tue Jan 16 15:20:28 2018 -0500
+
+    Merge branch 'dev' of http://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 3032e0779cc2d4d71737346b86db7721f13eb961
+Merge: 71c98b7 49d97b3
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Tue Jan 16 15:19:31 2018 -0500
+
+    Merge branch 'dev' of http://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 71c98b798aae33c714616b26d2d378df9484a433
+Author: Jhonatan Guzman <jguzman@endava.com>
+Date:   Tue Jan 16 15:18:39 2018 -0500
+
+    Jhonatan Guzman's class
+
+commit 2bd47ab296a98e09de55666f8c2ff81a9c45909a
+Merge: 47edda7 49d97b3
+Author: Juan Castro <jcastro@endava.com>
+Date:   Tue Jan 16 15:18:25 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+    
+    alguien se me adelanto
+
+commit 47edda7651b85f78fe3deb9efade1cf4ca8c1e9f
+Author: Juan Castro <jcastro@endava.com>
+Date:   Tue Jan 16 15:17:03 2018 -0500
+
+    Juan Castro
+
+commit 49d97b3bec842bb9e50bb30937001f2ae8e97078
+Merge: 53789a7 61c99d0
+Author: Alejandra Chacon <achacon@endava.com>
+Date:   Tue Jan 16 15:15:56 2018 -0500
+
+    Merge branch 'dev' of https://bitbucket.endava.com/scm/bd/git_internship into dev
+
+commit 53789a75d3a4386757e1c7926aba41bb4f87abe8
+Author: Alejandra Chacon <achacon@endava.com>
+Date:   Tue Jan 16 15:14:18 2018 -0500
+
+    aleDev
+
+commit 61c99d0133585ca5efd87065b9f68cc1db79c500
+Author: Javier Tronconis <jtronconis@endava.com>
+Date:   Tue Jan 16 15:08:30 2018 -0500
+
+    Added JavierTroconis.java
+
+commit 64fd1c1185e411bf405e63c54ed6d43c2fdcc312
+Author: Raul Fandiño <Raul.Fandino@endava.com>
+Date:   Mon Jan 15 11:15:12 2018 -0500
+
+    test class deleted
+
+commit 59c65dab75bc590e2fa438444e2fcceb853781a3
+Author: Raul Fandiño <Raul.Fandino@endava.com>
+Date:   Mon Jan 15 11:06:44 2018 -0500
+
+    prueba con Fulanito de Tal
+
+commit a61a13b7212673665a15cd3af4ec253143332101
+Author: Raul Fandiño <Raul.Fandino@endava.com>
+Date:   Mon Jan 15 10:40:42 2018 -0500
+
+    changes for exercises 1 and 2
+
+commit 98fd1e6ebd1a827f60a8a1312344100bbbed6e78
+Merge: 5ae0490 abc863a
+Author: Luisa Sepulveda <Luisa.Sepulveda@endava.com>
+Date:   Thu Jan 11 18:57:27 2018 +0000
+
+    Merge pull request #1 in BD/git_internship from dev to master
+    
+    * commit 'abc863aba8a3e3270d795592fb5208949d8630cd':
+      Adding ignore file
+      Adding ignore file
+
+commit abc863aba8a3e3270d795592fb5208949d8630cd
+Author: lsepulveda <luisa.sepulveda@endava.com>
+Date:   Thu Jan 11 13:56:31 2018 -0500
+
+    Adding ignore file
+
+commit 3d17049c7a86b669befe2a01c5b25c7c9bff8ad0
+Author: lsepulveda <luisa.sepulveda@endava.com>
+Date:   Thu Jan 11 13:54:59 2018 -0500
+
+    Adding ignore file
+
+commit 5ae0490d02ae9fb577f247ccc04b875c2025ec98
+Author: lsepulveda <luisa.sepulveda@endava.com>
+Date:   Thu Jan 11 13:49:16 2018 -0500
+
+    Initial Commit
