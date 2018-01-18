@@ -9,16 +9,18 @@ public class Book implements Serializable {
     private String published;
     private String language;
     private String publisher;
-    private int quantity;
+    private String state;
+    private int id;
 
-    public Book(String name, String author, String ISBN, String published, String language, String publisher, int quantity) {
+    public Book(String name, String author, String ISBN, String published, String language, String publisher) {
         this.name = name;
         this.author = author;
         this.ISBN = ISBN;
         this.published = published;
         this.language = language;
         this.publisher = publisher;
-        this.quantity = quantity;
+        this.state = "Disponible";
+        this.id = 1;
     }
 
     //Get's and Set's
@@ -59,11 +61,19 @@ public class Book implements Serializable {
         this.publisher = publisher;
     }
 
-    public int getQuantity() {
-        return quantity;
+    public String getState() {
+        return state;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

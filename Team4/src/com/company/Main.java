@@ -18,6 +18,7 @@ public class Main {
         while(exit==false){
             System.out.println("Please choose one option");
             System.out.println("1: Create book");
+            System.out.println("5: Show library books info");
             System.out.println("0: Exit");
             Scanner sc = new Scanner(System.in);
             option = sc.nextInt();
@@ -36,11 +37,11 @@ public class Main {
                     language = sc.nextLine();
                     System.out.print("Enter book´s publisher: ");
                     publisher = sc.nextLine();
-                    System.out.print("Enter book´s quantity: ");
-                    quantity = sc.nextInt();
-                    Book lib = new Book(name,author,ISBN,published,language,publisher, quantity);
+                    Book lib = new Book(name,author,ISBN,published,language,publisher);
                     library.createBook(lib);
                     break;
+                case 5:
+                    library.showInfo();
                 case 0:
                     exit = true;
                     break;
