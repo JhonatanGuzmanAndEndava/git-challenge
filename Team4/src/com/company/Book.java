@@ -1,20 +1,24 @@
 package com.company;
 
-public class Libro {
+import java.io.Serializable;
+
+public class Book implements Serializable {
     private String name;
     private String author;
     private String ISBN;
     private String published;
     private String language;
     private String publisher;
+    private int quantity;
 
-    public Libro(String name, String author, String ISBN, String published, String language, String publisher) {
+    public Book(String name, String author, String ISBN, String published, String language, String publisher, int quantity) {
         this.name = name;
         this.author = author;
         this.ISBN = ISBN;
         this.published = published;
         this.language = language;
         this.publisher = publisher;
+        this.quantity = quantity;
     }
 
     //Get's and Set's
@@ -53,5 +57,13 @@ public class Libro {
     }
     public void setpublisher(String publisher){
         this.publisher = publisher;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 }

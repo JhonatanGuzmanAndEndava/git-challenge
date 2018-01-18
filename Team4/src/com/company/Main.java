@@ -7,13 +7,14 @@ public class Main {
     public static void main(String[] args) {
         boolean exit = false;
         int option;
-        Biblioteca library = new Biblioteca();
+        Library library = new Library();
         String name;
         String author;
         String ISBN;
         String published;
         String language;
         String publisher;
+        int quantity;
         while(exit==false){
             System.out.println("Please choose one option");
             System.out.println("1: Create book");
@@ -35,7 +36,9 @@ public class Main {
                     language = sc.nextLine();
                     System.out.print("Enter book´s publisher: ");
                     publisher = sc.nextLine();
-                    Libro lib = new Libro(name,author,ISBN,published,language,publisher);
+                    System.out.print("Enter book´s quantity: ");
+                    quantity = sc.nextInt();
+                    Book lib = new Book(name,author,ISBN,published,language,publisher, quantity);
                     library.createBook(lib);
                     break;
                 case 0:
