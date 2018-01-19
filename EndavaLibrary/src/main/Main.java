@@ -1,7 +1,9 @@
 package main;
 
+import entities.Book;
 import entities.Library;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -29,10 +31,13 @@ public class Main {
                         create();
                         break;
                     case 2:
+                        read();
                         break;
                     case 3:
+                        update();
                         break;
                     case 4:
+                        delete();
                         break;
                     default:
                         if(option != 5) {
@@ -42,7 +47,6 @@ public class Main {
                 }
             }
             catch(Exception e) {
-                e.printStackTrace();
                 option = 0;
             }
         }
@@ -51,7 +55,6 @@ public class Main {
 
     public static void create() {
         String name, author, isbn, published, language, publisher;
-        Integer copy;
         System.out.println("Name: ");
         name = input.nextLine();
         System.out.println("Author: ");
@@ -64,6 +67,84 @@ public class Main {
         language = input.nextLine();
         System.out.println("Publisher: ");
         publisher = input.nextLine();
-        library.createBook(name, author, isbn, published, language, publisher);
+        String id = library.createBook(name, author, isbn, published, language, publisher);
+        System.out.println("\nBook created with id "+ id +"\n");
+    }
+
+    public static boolean read() {
+        String query;
+        int option;
+        boolean exist = false;
+        System.out.println("Please provide your criteria");
+        System.out.println(" [1] ISBN");
+        System.out.println(" [2] Title");
+        System.out.println(" [3] Author");
+        System.out.println(" [4] Id");
+        try {
+            option = Integer.parseInt(input.nextLine());
+            System.out.println("Please provide your request");
+            query = input.nextLine();
+            List<Book> result = library.readBook(query, option);
+            if(result == null || result.isEmpty()) {
+                System.out.println("\nNo matches found\n");
+            }
+            else {
+                exist = true;
+                for(Book book : result) {
+                    System.out.println(book.toString());
+                }
+            }
+        }
+        catch(Exception e) {
+            System.out.println("Wrong input");
+        }
+        return exist;
+    }
+
+    public static void update() {
+        String bookId, name, author, published, language, publisher;
+        boolean exist;
+        if (read()) {
+            System.out.println("\nChoose Id book to update:");
+            bookId = input.nextLine();
+            System.out.println("Name: ");
+            name = input.nextLine();
+            System.out.println("Author: ");
+            author = input.nextLine();
+            System.out.println("Published: ");
+            published = input.nextLine();
+            System.out.println("Language: ");
+            language = input.nextLine();
+            System.out.println("Publisher: ");
+            publisher = input.nextLine();
+
+            exist = library.updateBook(bookId, name, author, published, language, publisher);
+            if (exist) {
+
+                System.out.println("\nBook updated\n");
+
+            } else {
+                System.out.println("\nNo id found\n");
+            }
+
+
+        }
+    }
+
+
+    public static void delete() {
+        String bookId;
+        boolean exist;
+
+            System.out.println("\nChoose book id to delete");
+            bookId = input.nextLine();
+            exist = library.deleteBook(bookId);
+            if(exist) {
+                System.out.println("\nBook deleted\n");
+            }
+            else {
+                System.out.println("\nNo id found\n");
+            }
+
     }
 }

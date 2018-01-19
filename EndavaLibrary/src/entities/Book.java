@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Book implements Serializable {
 
-    private int id;
+    private String id;
     private String name;
     private String author;
     private String isbn;
@@ -12,7 +12,7 @@ public class Book implements Serializable {
     private String publisher;
     private Status status;
 
-    public Book(int id, String name, String author, String isbn, String published, String language, String publisher) {
+    public Book(String id, String name, String author, String isbn, String published, String language, String publisher) {
         this.id = id;
         this.name = name;
         this.author = author;
@@ -23,11 +23,11 @@ public class Book implements Serializable {
         this.status = Status.AVAILABLE;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -85,5 +85,10 @@ public class Book implements Serializable {
 
     public void setStatus(Status status) {
         this.status = status;
+    }
+
+    @Override
+    public String toString(){
+        return "\nId: " + this.id + "\nTitle: " + this.name + "\nAuthor: " + this.author + "\nStatus: " + this.status.toString();
     }
 }
