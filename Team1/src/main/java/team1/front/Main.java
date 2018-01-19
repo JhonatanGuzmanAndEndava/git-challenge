@@ -22,10 +22,13 @@ public class Main {
                     create(sc);
                     break;
                 case 2:
+                    read(sc);
                     break;
                 case 3:
+                    updateBook(sc);
                     break;
                 case 4:
+                    delete(sc);
                     break;
                 case 5:
                     active = false;
@@ -38,7 +41,6 @@ public class Main {
 
     public static void create(Scanner sc){
         String id, name, author, ISBN, published, language, publisher;
-
         System.out.print("Introduce el id del Libro: ");
         id = sc.nextLine();
         System.out.print("Introduce el nombre del Libro: ");
@@ -55,7 +57,6 @@ public class Main {
         publisher = sc.nextLine();
         System.out.println();
 
-
         Book created = Book.createBook(Integer.parseInt(id), name, author, Integer.parseInt(ISBN),published,language,publisher);
 
         System.out.println("Libro agregado exitosamente a la base de datos");
@@ -68,5 +69,64 @@ public class Main {
         System.out.println("Idioma: " + created.getLanguage());
         System.out.println("Editor: " + created.getPublisher());
         System.out.println();
+    }
+
+
+    public static void updateBook(Scanner sc) {
+        String id, name, author, ISBN, published, language, publisher;
+        System.out.print("Introduce el id del Libro a actualizar: ");
+        id = sc.nextLine();
+        System.out.print("Introduce el nombre del Libro: ");
+        name = sc.nextLine();
+        System.out.print("Introduce el nombre del Autor: ");
+        author = sc.nextLine();
+        System.out.print("Introduce el ISBN: ");
+        ISBN = sc.nextLine();
+        System.out.print("Introduce la fecha de publicación(DD/MM/AAAA): ");
+        published = sc.nextLine();
+        System.out.print("Introduce el idioma: ");
+        language = sc.nextLine();
+        System.out.print("Introduce el editor: ");
+        publisher = sc.nextLine();
+        System.out.println();
+
+        Book updatedBook = new Book(Integer.parseInt(id), name, author, Integer.parseInt(ISBN),published,language,publisher);
+        Book updated = Book.updateBook(updatedBook);
+        if (updated==null){
+            System.out.print("Este libro no existe");
+            System.out.println();
+        }
+    }
+
+    public static void delete(Scanner sc) {
+        String id;
+        System.out.print("Introduce el id del Libro: ");
+        id = sc.nextLine();
+        Book deleted = Book.deleteBook(Integer.parseInt(id));
+        if (deleted == null) {
+            System.out.print("Este libro no existe");
+            System.out.println();
+        }
+    }
+    public static void read(Scanner sc) {
+        String id;
+        System.out.print("Introduce el id del Libro que quieres leer: ");
+        id = sc.nextLine();
+        Book read = Book.readBook(Integer.parseInt(id));
+
+        if (read==null){
+            System.out.print("Este libro no existe");
+            System.out.println();
+        }else {
+            System.out.println("Libro: ");
+            System.out.println("Id: " + read.getId());
+            System.out.println("Titulo: " + read.getName());
+            System.out.println("Autor: " + read.getAuthor());
+            System.out.println("ISBN: " + read.getISBN());
+            System.out.println("Fecha de publicacion: " + read.getPublished());
+            System.out.println("Idioma: " + read.getLanguage());
+            System.out.println("Editor: " + read.getPublisher());
+            System.out.println();
+        }
     }
 }
