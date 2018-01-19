@@ -84,35 +84,11 @@ public class Library {
     }
 
     public boolean updateBook(int bookId) {
-        List<Book> list;
-        boolean exist = false;
-        for(String key : this.books.keySet()) {
-            list = this.books.get(key);
-            for(Book book : list) {
-                if(book.getId() == bookId) {
-                    //TODO update book
-                    exist = true;
-                }
-            }
-        }
-        persistence.save("./endavaLibrary.lol", books);
-        return exist;
+        return false;
     }
 
     public boolean deleteBook(int bookId) {
-        List<Book> list;
-        boolean exist = false;
-        for(String key : this.books.keySet()) {
-            list = this.books.get(key);
-            for(Book book : list) {
-                if(book.getId() == bookId) {
-                    list.remove(bookId);
-                    exist = true;
-                }
-            }
-        }
-        persistence.save("./endavaLibrary.lol", books);
-        return exist;
+            return false;
     }
 
     public void getAllBooks() {
