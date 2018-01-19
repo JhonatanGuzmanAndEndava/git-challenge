@@ -1,20 +1,21 @@
 package Impl.users;
 
 /**
+ * Created by rfandino on 1/15/2018.
  */
 public class MiguelBallen{
-    string id = "1031135661";
-    string name = "Miguel Angel";
-    string lastname = "Ballen Galindo";
+    String id = "1031135661";
+    String name = "Miguel Angel";
+    String lastname = "Ballen Galindo";
 
     public MiguelBallen() {
     }
 
-    public string getid() {
+    public String getid() {
         return id;
     }
 
-    public string getfullname(){
+    public String getfullname(){
         return name +" "+ lastname;
     }
 }

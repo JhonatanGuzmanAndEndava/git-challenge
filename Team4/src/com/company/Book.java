@@ -19,8 +19,7 @@ public class Book implements Serializable {
         this.published = published;
         this.language = language;
         this.publisher = publisher;
-        this.state = "Disponible";
-        this.id = 1;
+        this.state = "Available";
     }
 
     //Get's and Set's

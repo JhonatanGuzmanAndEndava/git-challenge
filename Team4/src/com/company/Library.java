@@ -17,6 +17,7 @@ public class Library {
     public boolean createBook (Book lib){
         try {
             if(data.createNewFile()){
+                lib.setId(1);
                 libraryBooks.put(lib.getId(),lib);
                 FileOutputStream fileOutputStream = new FileOutputStream(data);
                 ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);

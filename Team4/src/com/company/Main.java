@@ -1,11 +1,12 @@
 package com.company;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+
+    public static void main(String[] args) {
+
         boolean exit = false;
         int option;
         Library library = new Library();
@@ -16,7 +17,7 @@ public class Main {
         String language;
         String publisher;
         int IDc;
-        int quantity;
+
         while(exit==false){
             System.out.println("Please choose one option");
             System.out.println("1: Create book");

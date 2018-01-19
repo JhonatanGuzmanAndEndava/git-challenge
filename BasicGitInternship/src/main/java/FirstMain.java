@@ -2,8 +2,6 @@ import Impl.UserConfiguration;
 import Impl.users.MauricioHernandez;
 import Impl.users.LuisaSepulveda;
 import Impl.users.RaulFandino;
-import Impl.users.JuanCastro;
-
 import Impl.users.SebastianPuerto;
 
 import java.util.Map;
