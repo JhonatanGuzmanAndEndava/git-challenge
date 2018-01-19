@@ -88,4 +88,28 @@ public class Book {
         BookPersistence.createBook(newBook);
         return newBook;
     }
+
+    //Read Book
+    public static Book readBook(int id){
+        return BookPersistence.getBook(id);
+    }
+
+    public static Book updateBook(Book book){
+
+        Book updatedBook = null;
+        if(readBook(book.getId()) != null){
+            BookPersistence.updateBook(book);
+            updatedBook = book;
+        }
+        return updatedBook;
+    }
+
+    public static Book deleteBook(int id){
+
+        Book deletedBook = readBook(id);
+        if(deletedBook != null){
+            BookPersistence.deleteBook(id);
+        }
+        return deletedBook;
+    }
 }
