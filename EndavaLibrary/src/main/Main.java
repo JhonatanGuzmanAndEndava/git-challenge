@@ -79,6 +79,7 @@ public class Main {
         System.out.println(" [1] ISBN");
         System.out.println(" [2] Title");
         System.out.println(" [3] Author");
+        System.out.println(" [4] Id");
         try {
             option = Integer.parseInt(input.nextLine());
             System.out.println("Please provide your request");
@@ -101,20 +102,35 @@ public class Main {
     }
 
     public static void update() {
-        int bookId;
+        String bookId, name, author, published, language, publisher;
         boolean exist;
-        if(read()) {
-            System.out.println("\nChoose book to update");
-            bookId = Integer.parseInt(input.nextLine());
-            exist = library.updateBook(bookId);
-            if(exist) {
+        if (read()) {
+            System.out.println("\nChoose Id book to update:");
+            bookId = input.nextLine();
+            System.out.println("Name: ");
+            name = input.nextLine();
+            System.out.println("Author: ");
+            author = input.nextLine();
+            System.out.println("Published: ");
+            published = input.nextLine();
+            System.out.println("Language: ");
+            language = input.nextLine();
+            System.out.println("Publisher: ");
+            publisher = input.nextLine();
+
+            exist = library.updateBook(bookId, name, author, published, language, publisher);
+            if (exist) {
+
                 System.out.println("\nBook updated\n");
-            }
-            else {
+
+            } else {
                 System.out.println("\nNo id found\n");
             }
+
+
         }
     }
+
 
     public static void delete() {
 

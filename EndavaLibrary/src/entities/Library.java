@@ -33,15 +33,17 @@ public class Library {
     }
 
     public void createBook(String name, String author, String isbn, String published, String language, String publisher) {
-        int id;
+        String id;
         Book book;
         List<Book> list = books.get(isbn);
         if(list == null) {
-            id = 0;
+            id = isbn+"_"+0;
             list = new ArrayList<Book>();
         }
         else {
-            id = books.get(isbn).get(books.get(isbn).size() - 1).getId() + 1;
+            String lastId= list.get(list.size()-1).getId();
+            int pos = Integer.parseInt(lastId.charAt(lastId.length()-1)+"");
+            id = isbn + "_"+(pos+1);
         }
         book = new Book(id, name, author, isbn, published, language, publisher);
         list.add(book);
@@ -76,6 +78,10 @@ public class Library {
                     }
                 }
                 break;
+            case 4:
+                String[] key = query.split("_");
+                matches.add(books.get(key[0]).get(Integer.parseInt(key[1])));
+                break;
             default:
                 matches = null;
                 break;
@@ -83,23 +89,27 @@ public class Library {
         return matches;
     }
 
-    public boolean updateBook(int bookId) {
+    public boolean updateBook(String bookId, String name, String author, String published, String language, String publisher) {
         List<Book> list;
         boolean exist = false;
-        for(String key : this.books.keySet()) {
-            list = this.books.get(key);
-            for(Book book : list) {
-                if(book.getId() == bookId) {
-                    //TODO update book
+        String[] isbn = bookId.split("_");
+          for(Book b:  books.get(isbn[0])){
+              if(b.getId().contentEquals(bookId)){
+                    b.setAuthor(author);
+                    b.setLanguage(language);
+                    b.setName(name);
+                    b.setPublished(published);
+                    b.setPublisher(publisher);
                     exist = true;
-                }
-            }
-        }
+                    break;
+              }
+          }
+
         persistence.save("./endavaLibrary.lol", books);
         return exist;
     }
 
-    public boolean deleteBook(int bookId) {
+    public boolean deleteBook(String bookId) {
             return false;
     }
 
