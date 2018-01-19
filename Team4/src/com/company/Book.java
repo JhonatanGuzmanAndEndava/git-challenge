@@ -47,11 +47,11 @@ public class Book implements Serializable {
     public void setpublished(String published){
         this.published = published;
     }
-    public String getlenguage(){
+    public String getlanguage(){
         return language;
     }
-    public void setlenguage(String lenguage){
-        this.language = lenguage;
+    public void setlanguage(String language){
+        this.language = language;
     }
     public String getpublisher(){
         return publisher;
