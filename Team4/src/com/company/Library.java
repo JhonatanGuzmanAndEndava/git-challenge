@@ -115,7 +115,7 @@ public class Library {
             FileInputStream fileInputStream = new FileInputStream(data);
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
             libraryBooks = (HashMap<Integer, Book>)objectInputStream.readObject();
-            if (libraryBooks.containsKey(IDc)){
+            if (!libraryBooks.isEmpty() && libraryBooks.containsKey(IDc)){
                 Book book = libraryBooks.get(IDc);
                 System.out.println("Book's name: " + book.getname());
                 System.out.println("Book's author: " + book.getauthor());
