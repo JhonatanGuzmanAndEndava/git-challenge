@@ -148,7 +148,7 @@ public class main {
                 System.out.println("Delete for lang: 6");
                 System.out.println("Delete for publisher: 7");
                 int delete = scan.nextInt();
-
+ 
                 switch(delete){
                     case 1:
                         library = method.deleteBookId(library);
