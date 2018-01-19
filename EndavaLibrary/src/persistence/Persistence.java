@@ -21,7 +21,6 @@ public class Persistence<T> {
             out.writeObject(map);
             out.close();
             fileOut.close();
-            System.out.println("File saved");
         } catch (Exception e) {
         }
     }

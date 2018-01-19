@@ -2,10 +2,7 @@ package entities;
 
 import persistence.Persistence;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Library {
 
@@ -52,16 +49,70 @@ public class Library {
         persistence.save("./endavaLibrary.lol", books);
     }
 
-    public void readBook() {
-
+    public List<Book> readBook(String query, int option) {
+        List<Book> matches = new ArrayList<Book>();
+        List<Book> list;
+        switch(option){
+            case 1:
+                matches = this.books.get(query);
+                break;
+            case 2:
+                for(String key : this.books.keySet()) {
+                    list = this.books.get(key);
+                    for(Book book : list) {
+                        if(book.getName().contentEquals(query)) {
+                            matches.add(book);
+                        }
+                    }
+                }
+                break;
+            case 3:
+                for(String key : this.books.keySet()) {
+                    list = this.books.get(key);
+                    for(Book book : list) {
+                        if(book.getAuthor().contentEquals(query)) {
+                            matches.add(book);
+                        }
+                    }
+                }
+                break;
+            default:
+                matches = null;
+                break;
+        }
+        return matches;
     }
 
-    public void updateBook() {
-
+    public boolean updateBook(int bookId) {
+        List<Book> list;
+        boolean exist = false;
+        for(String key : this.books.keySet()) {
+            list = this.books.get(key);
+            for(Book book : list) {
+                if(book.getId() == bookId) {
+                    //TODO update book
+                    exist = true;
+                }
+            }
+        }
+        persistence.save("./endavaLibrary.lol", books);
+        return exist;
     }
 
-    public void deleteBook() {
-
+    public boolean deleteBook(int bookId) {
+        List<Book> list;
+        boolean exist = false;
+        for(String key : this.books.keySet()) {
+            list = this.books.get(key);
+            for(Book book : list) {
+                if(book.getId() == bookId) {
+                    list.remove(bookId);
+                    exist = true;
+                }
+            }
+        }
+        persistence.save("./endavaLibrary.lol", books);
+        return exist;
     }
 
     public void getAllBooks() {

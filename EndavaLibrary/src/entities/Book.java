@@ -86,4 +86,9 @@ public class Book implements Serializable {
     public void setStatus(Status status) {
         this.status = status;
     }
+
+    @Override
+    public String toString(){
+        return "\nId: " + this.id + "\nTitle: " + this.name + "\nAuthor: " + this.author + "\nStatus: " + this.status.toString();
+    }
 }
