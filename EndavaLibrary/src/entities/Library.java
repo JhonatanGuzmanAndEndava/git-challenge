@@ -32,7 +32,7 @@ public class Library {
         this.books = books;
     }
 
-    public void createBook(String name, String author, String isbn, String published, String language, String publisher) {
+    public String createBook(String name, String author, String isbn, String published, String language, String publisher) {
         String id;
         Book book;
         List<Book> list = books.get(isbn);
@@ -49,6 +49,7 @@ public class Library {
         list.add(book);
         books.put(isbn, list);
         persistence.save("./endavaLibrary.lol", books);
+        return id;
     }
 
     public List<Book> readBook(String query, int option) {
@@ -90,7 +91,7 @@ public class Library {
     }
 
     public boolean updateBook(String bookId, String name, String author, String published, String language, String publisher) {
-        List<Book> list;
+
         boolean exist = false;
         String[] isbn = bookId.split("_");
           for(Book b:  books.get(isbn[0])){
@@ -110,7 +111,16 @@ public class Library {
     }
 
     public boolean deleteBook(String bookId) {
-            return false;
+        List<Book> list;
+        boolean exist = false;
+        String[] isbn = bookId.split("_");
+        if(books.get(isbn[0])!=null){
+            books.get(isbn[0]).remove(Integer.parseInt(isbn[1]));
+            exist = true;
+        }
+        persistence.save("./endavaLibrary.lol", books);
+        return exist;
+
     }
 
     public void getAllBooks() {

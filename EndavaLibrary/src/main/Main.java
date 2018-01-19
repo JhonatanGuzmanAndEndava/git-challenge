@@ -67,8 +67,8 @@ public class Main {
         language = input.nextLine();
         System.out.println("Publisher: ");
         publisher = input.nextLine();
-        library.createBook(name, author, isbn, published, language, publisher);
-        System.out.println("\nBook created\n");
+        String id = library.createBook(name, author, isbn, published, language, publisher);
+        System.out.println("\nBook created with id "+ id +"\n");
     }
 
     public static boolean read() {
@@ -85,7 +85,7 @@ public class Main {
             System.out.println("Please provide your request");
             query = input.nextLine();
             List<Book> result = library.readBook(query, option);
-            if(result == null) {
+            if(result == null || result.isEmpty()) {
                 System.out.println("\nNo matches found\n");
             }
             else {
@@ -133,6 +133,18 @@ public class Main {
 
 
     public static void delete() {
+        String bookId;
+        boolean exist;
+
+            System.out.println("\nChoose book id to delete");
+            bookId = input.nextLine();
+            exist = library.deleteBook(bookId);
+            if(exist) {
+                System.out.println("\nBook deleted\n");
+            }
+            else {
+                System.out.println("\nNo id found\n");
+            }
 
     }
 }
