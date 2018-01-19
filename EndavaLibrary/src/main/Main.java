@@ -101,7 +101,19 @@ public class Main {
     }
 
     public static void update() {
-
+        int bookId;
+        boolean exist;
+        if(read()) {
+            System.out.println("\nChoose book to update");
+            bookId = Integer.parseInt(input.nextLine());
+            exist = library.updateBook(bookId);
+            if(exist) {
+                System.out.println("\nBook updated\n");
+            }
+            else {
+                System.out.println("\nNo id found\n");
+            }
+        }
     }
 
     public static void delete() {

@@ -84,7 +84,19 @@ public class Library {
     }
 
     public boolean updateBook(int bookId) {
-        return false;
+        List<Book> list;
+        boolean exist = false;
+        for(String key : this.books.keySet()) {
+            list = this.books.get(key);
+            for(Book book : list) {
+                if(book.getId() == bookId) {
+                    //TODO update book
+                    exist = true;
+                }
+            }
+        }
+        persistence.save("./endavaLibrary.lol", books);
+        return exist;
     }
 
     public boolean deleteBook(int bookId) {
