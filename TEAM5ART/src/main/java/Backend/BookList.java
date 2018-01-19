@@ -39,7 +39,7 @@ public class BookList {
             Integer key = bookEntry.getKey();
             Book value = bookEntry.getValue();
 
-            result += "["+ key.toString() +"]|[" + value.toString() + "]\n";
+            result += "["+ key.toString() +"]|[" + value.toPersist() + "]\n";
         }
         return result;
     }

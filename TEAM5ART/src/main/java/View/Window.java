@@ -1,5 +1,7 @@
 package View;
 
+import Backend.Book;
+
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.awt.EventQueue;
@@ -15,6 +17,8 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.JComboBox;
 
 public class Window extends JFrame
@@ -68,7 +72,7 @@ public class Window extends JFrame
     private JLabel lblPublished_update;
     private Component lblLanguage_update;
     private JLabel lblPublisher_update;
-    private JTextField tfId_update;
+    private JLabel tfId_update;
     private JTextField tfName_update;
     private JTextField tfAuthor_update;
     private JTextField tfIsbn_update;
@@ -299,10 +303,9 @@ public class Window extends JFrame
         lblPublisher_update.setBounds(163, 384, 56, 16);
         updatePane.add(lblPublisher_update);
 
-        tfId_update = new JTextField();
+        tfId_update = new JLabel();
         tfId_update.setBounds(268, 129, 257, 22);
         updatePane.add(tfId_update);
-        tfId_update.setColumns(10);
 
         tfName_update = new JTextField();
         tfName_update.setBounds(268, 171, 257, 22);
@@ -415,7 +418,7 @@ public class Window extends JFrame
     public JTextField getTfIsbn_update() {
         return tfIsbn_update;
     }
-    public JTextField getTfId_update() {
+    public JLabel getTfId_update() {
         return tfId_update;
     }
     public JTextField getTfPublished_update() {

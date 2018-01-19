@@ -75,12 +75,20 @@ public class Book {
         return publisher;
     }
 
+    public int getId() {
+        return id;
+    }
+
     public void setPublisher(String publisher) {
         this.publisher = publisher;
     }
 
     @Override
     public String toString() {
+        return "["+this.id+"] "+this.name+" - "+this.author;
+    }
+
+    public String toPersist() {
         return  this.name+","+this.author+","+this.isbn+","+this.published+","+this.language+","+this.publisher;
     }
 }
